@@ -1,0 +1,7 @@
+[workspace]
+members = ["cli_previewer", "previewer", "web_previewer"]
+
+resolver = "2"
+
+[workspace.dependencies]
+image = "0.25.5"
